@@ -1,6 +1,6 @@
 # Canon White Space（正史空白区）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
@@ -43,8 +43,8 @@ UNKNOWN（未知） ≠ FALSE（错误）
 - 与 [canon-engine.md](canon-engine.md)：UNKNOWN 验证结果指向空白区
 - 与 [canon-snapshot.md](canon-snapshot.md)：快照应标出空白区
 - 与 Curator AI（策展 AI）：负责 Canon White Space Discovery（正史空白发现）
-- 与 [system-v0.3.md](system-v0.3.md)：是 v0.3 架构的组成部分
+- 与 [system-v0.2.md](system-v0.2.md)：是 v0.2 架构的组成部分
 
 ## Current Status（当前状态）
 
-v0.3 Draft。概念定义完成。
+v0.2 Draft。概念定义完成。

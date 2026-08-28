@@ -1,12 +1,12 @@
 # World State（世界状态）
 
-Status: v0.3 Draft（v0.1 内容保留为历史）
+Status: v0.2 Draft（v0.1 内容保留为历史）
 
-## v0.3 更新（增量升级）
+## v0.2 更新（增量升级）
 
 > **World State（世界状态）表示：某一个时间点，整个世界的可计算状态。**
 
-World State 是 World Reality（世界现实）的可计算投影：它把「认定的事实」转换为「可以查询的状态」。v0.1 的定义没有删除，而是被包含在 v0.3 的模型中。
+World State 是 World Reality（世界现实）的可计算投影：它把「认定的事实」转换为「可以查询的状态」。v0.1 的定义没有删除，而是被包含在 v0.2 的模型中。
 
 ### World Snapshot（世界快照）
 
@@ -39,11 +39,11 @@ Current Events（当前事件）：
 
 v0.1：Story = World-State Transaction（故事 = 世界状态事务）
 
-v0.3：
+v0.2：
 
 > **Story = Narrative Artifact + Claims + Possible World-State Transactions**
 
-故事本身是独立的 Narrative Artifact（叙事作品）；其中的 Claims（事实主张）经过验证后，才可能成为改变世界状态的交易。详见 [system-v0.3.md](system-v0.3.md)。
+故事本身是独立的 Narrative Artifact（叙事作品）；其中的 Claims（事实主张）经过验证后，才可能成为改变世界状态的交易。详见 [system-v0.2.md](system-v0.2.md)。
 
 ---
 
@@ -73,7 +73,7 @@ Organization E: active → dissolved
 
 Living Canon 是"历史记录"，World State 是"当前状态"。每一次 History Commit 同时修改两者：历史增加一条记录，世界状态发生一次迁移。
 
-v0.3 补充：每一次 History Commit 还同时更新 Reality Canon（现实正史）、Historical Record Layer（历史记录层）、Provenance Graph（溯源图谱）、Causal Graph（因果图谱）、Claim Status（主张状态）与 Blast Radius Index（影响范围索引）。详见 [system-v0.3.md](system-v0.3.md)。
+v0.2 补充：每一次 History Commit 还同时更新 Reality Canon（现实正史）、Historical Record Layer（历史记录层）、Provenance Graph（溯源图谱）、Causal Graph（因果图谱）、Claim Status（主张状态）与 Blast Radius Index（影响范围索引）。详见 [system-v0.2.md](system-v0.2.md)。
 
 ## 核心原则（v0.1 原文，保留）
 

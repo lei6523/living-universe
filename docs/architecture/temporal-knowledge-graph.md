@@ -1,6 +1,6 @@
 # Temporal Knowledge Graph（时间知识图谱）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
@@ -64,4 +64,4 @@ valid_until（结束时间）：
 
 ## Current Status（当前状态）
 
-v0.3 Draft。当前仓库仍以 Markdown 文档为主；TKG 是未来数据结构的演进方向，不代表已经实现。
+v0.2 Draft。当前仓库仍以 Markdown 文档为主；TKG 是未来数据结构的演进方向，不代表已经实现。

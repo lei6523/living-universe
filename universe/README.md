@@ -16,9 +16,9 @@
 | `characters/` | 角色 |
 | `events/` | 事件 |
 
-## 长期迁移方向（v0.3，尚未执行）
+## 长期迁移方向（v0.2，尚未执行）
 
-不要立刻删除旧目录。v0.3 提出未来迁移目标：
+不要立刻删除旧目录。v0.2 提出未来迁移目标：
 
 ```text
 universe/
@@ -66,4 +66,4 @@ universe/
 - 一个核心文明矛盾
 - 第一批短篇故事
 
-框架说明见 [docs/SYSTEM_OVERVIEW.md](../docs/SYSTEM_OVERVIEW.md) 与 [docs/architecture/system-v0.3.md](../docs/architecture/system-v0.3.md)。
+框架说明见 [docs/SYSTEM_OVERVIEW.md](../docs/SYSTEM_OVERVIEW.md) 与 [docs/architecture/system-v0.2.md](../docs/architecture/system-v0.2.md)。

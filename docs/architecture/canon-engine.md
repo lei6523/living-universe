@@ -1,6 +1,6 @@
 # Canon Engine（正史引擎）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
@@ -107,4 +107,4 @@ Hard Rules（硬规则）尽量由：
 
 ## Current Status（当前状态）
 
-v0.3 Draft。整体架构方向；任何组件均未实现。
+v0.2 Draft。整体架构方向；任何组件均未实现。

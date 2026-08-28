@@ -1,6 +1,6 @@
 # Canon Reframing（正史重构 / 正史再语境化）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
@@ -84,4 +84,4 @@ Political Assassination（政治暗杀）
 
 ## Current Status（当前状态）
 
-v0.3 Draft。概念定义完成；具体审核规则待定（见 Remaining Questions）。
+v0.2 Draft。概念定义完成；具体审核规则待定（见 Remaining Questions）。

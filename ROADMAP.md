@@ -2,7 +2,7 @@
 
 Status: Draft / To be developed
 
-当前阶段（v0.3 文档架构）为文档与架构建设，不做产品开发。长期阶段规划详见 [docs/SYSTEM_OVERVIEW.md](docs/SYSTEM_OVERVIEW.md#13-long-term-evolution)。
+当前阶段（v0.2 文档架构）为文档与架构建设，不做产品开发。长期阶段规划详见 [docs/SYSTEM_OVERVIEW.md](docs/SYSTEM_OVERVIEW.md#13-long-term-evolution)。
 
 ## 长期三阶段
 

@@ -1,8 +1,8 @@
 # Canon Levels（正史层级）
 
-Status: v0.3 Draft（v0.1 模型保留为历史）
+Status: v0.2 Draft（v0.1 模型保留为历史）
 
-## v0.3 更新：三维度模型
+## v0.2 更新：三维度模型
 
 v0.1 把 Hard Canon（硬正史）、Local Canon（局部正史）、Personal Canon（个人正史）放在同一层级，混合了三个不同维度：
 
@@ -10,7 +10,7 @@ v0.1 把 Hard Canon（硬正史）、Local Canon（局部正史）、Personal Ca
 - Scope（作用范围）
 - Ownership（创作者所有权）
 
-v0.3 将正史层级拆分为多个独立维度。
+v0.2 将正史层级拆分为多个独立维度。
 
 ### 维度一：Canon Authority（正史权威等级）
 

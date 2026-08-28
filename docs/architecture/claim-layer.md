@@ -1,6 +1,6 @@
 # Claim Layer（事实主张层）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
@@ -108,4 +108,4 @@ PROPOSED（已提出）
 
 ## Current Status（当前状态）
 
-v0.3 Draft。概念定义完成；Claim 提取与存储未实现。
+v0.2 Draft。概念定义完成；Claim 提取与存储未实现。

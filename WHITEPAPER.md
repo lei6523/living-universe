@@ -2,7 +2,7 @@
 
 Status: Draft / To be developed
 
-本文档将系统阐述 Living Universe 的完整构想。当前阶段请先阅读 [docs/SYSTEM_OVERVIEW.md](docs/SYSTEM_OVERVIEW.md)（v0.3 系统说明）与 [docs/architecture/system-v0.3.md](docs/architecture/system-v0.3.md)（v0.3 总体架构）。
+本文档将系统阐述 Living Universe 的完整构想。当前阶段请先阅读 [docs/SYSTEM_OVERVIEW.md](docs/SYSTEM_OVERVIEW.md)（v0.2 系统说明）与 [docs/architecture/system-v0.2.md](docs/architecture/system-v0.2.md)（v0.2 总体架构）。
 
 白皮书未来将涵盖：
 

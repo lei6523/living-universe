@@ -1,6 +1,6 @@
 # Glossary（术语表）
 
-Status: v0.3 Draft（v0.1 术语保留并标注）
+Status: v0.2 Draft（v0.1 术语保留并标注）
 
 | 英文名称 | 中文名称 | 定义 |
 | --- | --- | --- |
@@ -14,11 +14,11 @@ Status: v0.3 Draft（v0.1 术语保留并标注）
 | World State | 世界状态 | 某一个时间点，整个世界的可计算状态。 |
 | World Snapshot | 世界快照 | 某一时间点世界状态的完整快照（时间、地点、人口、政府、科技水平等）。 |
 | Canon Snapshot | 正史快照 | 创作者创作前按时间、地点与范围获取的正史摘要，支持离线创作。 |
-| Living Canon | 活正史 / 持续正史 | 持续增长和变化的共享正史；v0.3 中具体化为 Reality Canon + Historical Record Layer 的组合。 |
+| Living Canon | 活正史 / 持续正史 | 持续增长和变化的共享正史；v0.2 中具体化为 Reality Canon + Historical Record Layer 的组合。 |
 | Canon Constitution | 正史宪法 | 最高层规则：基础物理、技术边界、AI 基本定义与关键不可变原则；普通创作者不能随意修改。 |
-| Hard Canon | 硬正史（v0.1 术语） | 已确认的重大历史事实；v0.3 中已迁移至 Canon Authority × Scope 多维度模型。 |
-| Local Canon | 局部正史（v0.1 术语） | 地区、城市、组织或局部时间范围内的正史；v0.3 中由 Scope 维度表达。 |
-| Personal Canon | 个人正史（v0.1 术语） | 创作者自己创建角色的核心人生历史；v0.3 中由 Creator Ownership 维度表达。 |
+| Hard Canon | 硬正史（v0.1 术语） | 已确认的重大历史事实；v0.2 中已迁移至 Canon Authority × Scope 多维度模型。 |
+| Local Canon | 局部正史（v0.1 术语） | 地区、城市、组织或局部时间范围内的正史；v0.2 中由 Scope 维度表达。 |
+| Personal Canon | 个人正史（v0.1 术语） | 创作者自己创建角色的核心人生历史；v0.2 中由 Creator Ownership 维度表达。 |
 | Canon Candidate | 正史候选 | 通过验证、等待人工审核的正史候选内容。 |
 | Historical Record | 历史记录 | 世界内部产生的记录：官方记录、传记、回忆录、新闻、宣传、谣言、传说等。 |
 | Historical Record Layer | 历史记录层 | 保存所有历史记录的层次，与 World Reality 严格区分。 |
@@ -32,12 +32,12 @@ Status: v0.3 Draft（v0.1 术语保留并标注）
 | Temporal Knowledge Graph | 时间知识图谱 | 实体 × 关系 × 时间 × 状态结合的未来世界数据结构。 |
 | Causal Graph | 因果图谱 | 记录事件之间原因与结果关系的图结构。 |
 | Provenance Graph | 溯源图谱 | 追踪重要事实来源与变化历史的图结构。 |
-| History Commit | 历史提交 | 一个故事或事件正式成为宇宙历史的操作；v0.3 中还需更新 Reality Canon、历史记录层、溯源图谱、因果图谱、主张状态与影响范围索引。 |
+| History Commit | 历史提交 | 一个故事或事件正式成为宇宙历史的操作；v0.2 中还需更新 Reality Canon、历史记录层、溯源图谱、因果图谱、主张状态与影响范围索引。 |
 | Merge Conflict | 合并冲突 | 多个创作者的主张违反关系约束时产生的冲突状态；离线冲突也是正常的合并冲突。 |
 | Concurrent Claim | 并发主张 | 多个创作者对同一主体、关系、时间区间提出的不同主张。 |
 | Identity Collision | 身份碰撞 | 多个实体高度相似（同名、同年龄、同职业等）被检测出的可能重复；不自动合并，由人工审核决定。 |
 | Blast Radius | 影响范围 | 一次正史修改会影响的实体数量与范围；影响越大，治理等级越高。 |
-| Creator Ownership | 创作者所有权 | 原始创作者对角色与核心设定的署名、创作身份及潜在商业权益；v0.3 中为独立维度，与正史权威、作用范围分离。 |
+| Creator Ownership | 创作者所有权 | 原始创作者对角色与核心设定的署名、创作身份及潜在商业权益；v0.2 中为独立维度，与正史权威、作用范围分离。 |
 | Narrative State | 叙事状态 | 叙事层面的状态：已有故事、故事间关系与阅读路径，区别于世界内部状态。 |
 | Reference Universe | 参照宇宙 | 第一个验证 Living Universe 框架是否可行的示范宇宙（Reference Universe Alpha）。 |
 | Civilization Wind Tunnel | 文明风洞 | 远期研究方向：多社会模型模拟、虚拟文明实验、制度与思想实验；探索可能性而非预测单一未来。 |

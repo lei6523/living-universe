@@ -1,6 +1,6 @@
 # Canon Snapshot（正史快照）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
@@ -43,8 +43,8 @@ Characters（人物）
 - 与 [merge-protocol.md](merge-protocol.md)：快照是离线创作与远程同步的基线
 - 与 [world-state.md](world-state.md)：快照基于某时间点的 World State（世界状态）生成
 - 与 [canon-white-space.md](canon-white-space.md)：快照应明确标出 Unknown（未知）与开放区域
-- 与 [system-v0.3.md](system-v0.3.md)：是完整创作流程的第二步
+- 与 [system-v0.2.md](system-v0.2.md)：是完整创作流程的第二步
 
 ## Current Status（当前状态）
 
-v0.3 Draft。为创作者使用的目标系统；尚未实现。
+v0.2 Draft。为创作者使用的目标系统；尚未实现。

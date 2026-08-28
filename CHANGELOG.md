@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.3.0
+## v0.2.0
 
-Architecture v0.3（架构v0.3）
+Architecture v0.2（架构v0.2）
 
 - Added Claim Layer（事实主张层）
 - Added Historical Record Layer（历史记录层）

@@ -1,6 +1,6 @@
 # Causal Graph（因果图谱）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
@@ -54,4 +54,4 @@ Mars Revolution（火星革命）
 
 ## Current Status（当前状态）
 
-v0.3 Draft。概念定义完成；未实现。
+v0.2 Draft。概念定义完成；未实现。

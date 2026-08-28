@@ -1,14 +1,14 @@
 # Living Universe System Overview
 
-## Version 0.3 Draft（由 v0.1 增量升级）
+## Version 0.2 Draft（由 v0.1 增量升级）
 
-> 本文档是 Living Universe 框架的系统说明。当前版本为 v0.3 Draft，由 v0.1 增量升级而来；v0.1 内容保留在本文档中并标注为历史。
+> 本文档是 Living Universe 框架的系统说明。当前版本为 v0.2 Draft，由 v0.1 增量升级而来；v0.1 内容保留在本文档中并标注为历史。
 > 本文档定义概念、原则与方向；其中提到的所有技术能力均为方向性描述，不代表任何实现已经完成。
 > 目前所有 AI、Knowledge Graph（知识图谱）、Canon Engine（正史引擎）、Simulation（模拟）相关内容仍属于 Architecture Direction（架构方向），不代表已经完成实现。
 
 ---
 
-# 0. v0.3 升级说明
+# 0. v0.2 升级说明
 
 v0.1（旧架构）：
 
@@ -32,7 +32,7 @@ World State
 （世界状态）
 ```
 
-v0.3（新架构）：
+v0.2（新架构）：
 
 ```text
 Story
@@ -79,9 +79,9 @@ Provenance
 （历史溯源）
 ```
 
-v0.3 引入五个最高层核心概念：World Reality（世界现实）、World State（世界状态）、Historical Memory（历史记忆）、Creator Ecosystem（创作者生态）、Canon Engine（正史引擎）。
+v0.2 引入五个最高层核心概念：World Reality（世界现实）、World State（世界状态）、Historical Memory（历史记忆）、Creator Ecosystem（创作者生态）、Canon Engine（正史引擎）。
 
-总体架构详见 [docs/architecture/system-v0.3.md](architecture/system-v0.3.md)。
+总体架构详见 [docs/architecture/system-v0.2.md](architecture/system-v0.2.md)。
 
 ---
 
@@ -103,7 +103,7 @@ Living Universe 尝试探索的正是这种新型叙事娱乐形式。
 
 # 2. Definition of a Living Universe
 
-v0.3 正式定义：
+v0.2 正式定义：
 
 > **Living Universe（活宇宙） is a persistent narrative civilization（持续叙事文明） jointly created by multiple human creators（多个人类创作者） and supported by AI infrastructure（AI基础设施）, where stories can propose facts, facts can become history, history produces consequences, and the world preserves both reality and the records people made about reality.**
 
@@ -147,7 +147,7 @@ Living Universe 至少拥有以下属性：
 
 # 3. Core Principle: Story as a World-State Transaction
 
-v0.3 升级定义：
+v0.2 升级定义：
 
 > **Story（故事） = Narrative Artifact（叙事作品） + Claims（事实主张） + Possible World-State Transactions（可能的世界状态变更）**
 
@@ -230,7 +230,7 @@ World State v3
 
 世界因此拥有真正的历史连续性：每一次正史变化都来自一次有记录、可追溯的提交（History Commit）。
 
-v0.3 补充：Living Canon 进一步具体化为 Reality Canon（现实正史）+ Historical Record Layer（历史记录层）的组合：世界不仅保存认定的事实，也保存关于事实的记录。详见 [docs/architecture/living-canon.md](architecture/living-canon.md)。
+v0.2 补充：Living Canon 进一步具体化为 Reality Canon（现实正史）+ Historical Record Layer（历史记录层）的组合：世界不仅保存认定的事实，也保存关于事实的记录。详见 [docs/architecture/living-canon.md](architecture/living-canon.md)。
 
 ---
 
@@ -274,7 +274,7 @@ Living Universe 的正史至少分为以下几个层级。
 
 实验作品、候选作品、平行版本以及尚未进入正式正史的内容。
 
-> v0.3 更新：上述五层级模型在 v0.3 中被拆分为三个独立维度——Canon Authority（正史权威等级）、Scope（作用范围）、Creator Ownership（创作者所有权），并引入 Impact Level（影响等级 S0–S5）决定治理强度。详见 [docs/governance/canon-levels.md](governance/canon-levels.md)。
+> v0.2 更新：上述五层级模型在 v0.2 中被拆分为三个独立维度——Canon Authority（正史权威等级）、Scope（作用范围）、Creator Ownership（创作者所有权），并引入 Impact Level（影响等级 S0–S5）决定治理强度。详见 [docs/governance/canon-levels.md](governance/canon-levels.md)。
 
 ---
 
@@ -357,7 +357,7 @@ History Commit 表示：
 
 未来所有 History Commit 都应该具有可追溯性（Traceability）。
 
-v0.3 更新：History Commit 不仅修改 World State（世界状态），还需要更新：
+v0.2 更新：History Commit 不仅修改 World State（世界状态），还需要更新：
 
 - Reality Canon（现实正史）
 - Historical Record Layer（历史记录层）
@@ -418,7 +418,7 @@ or modify the event date.
 
 > 注：Canon Compiler 当前为概念定义阶段，尚未实现。
 
-v0.3 更新：Canon Compiler（正史编译器）只是 Canon Engine（正史引擎）的一部分。Canon Engine 还包含实体解析、身份碰撞检测、并发主张检测、影响范围分析、认知状态分析等检查器。详见 [docs/architecture/canon-engine.md](architecture/canon-engine.md)。
+v0.2 更新：Canon Compiler（正史编译器）只是 Canon Engine（正史引擎）的一部分。Canon Engine 还包含实体解析、身份碰撞检测、并发主张检测、影响范围分析、认知状态分析等检查器。详见 [docs/architecture/canon-engine.md](architecture/canon-engine.md)。
 
 ---
 
@@ -428,7 +428,7 @@ v0.3 更新：Canon Compiler（正史编译器）只是 Canon Engine（正史引
 
 目前规划四类 AI。
 
-v0.3 职责更新：
+v0.2 职责更新：
 
 - **Canon AI（正史 AI）**：负责 Consistency（世界一致性）、Conflict Detection（冲突检测）、Claim Analysis（事实主张分析）；定位是 Semantic Validator（语义验证器），不是创作主脑、宇宙上帝或最终裁决者。
 - **Historian AI（史官 AI）**：负责 Historical Records（历史记录）、Source Comparison（史料比较）、Historiography（历史解释演化）；区分 Fact（事实）、Record（记录）、Belief（认知）、Propaganda（宣传）、Rumor（谣言）。
@@ -540,7 +540,7 @@ Final Canon Decision
 
 避免整个世界被爽点、战争和流行趋势绑架。
 
-v0.3 更新：治理按 Impact Level（影响等级）划分：S0 Background（背景级）、S1 Local（地方级）、S2 Regional（区域级）、S3 National（国家级）、S4 Civilization（文明级）、S5 Constitutional（正史宪法级）。影响越高，审核越严格。详见 [docs/governance/canon-levels.md](governance/canon-levels.md)。
+v0.2 更新：治理按 Impact Level（影响等级）划分：S0 Background（背景级）、S1 Local（地方级）、S2 Regional（区域级）、S3 National（国家级）、S4 Civilization（文明级）、S5 Constitutional（正史宪法级）。影响越高，审核越严格。详见 [docs/governance/canon-levels.md](governance/canon-levels.md)。
 
 ---
 
@@ -687,7 +687,7 @@ flowchart LR
 
 ---
 
-# 15. System Architecture（v0.1 结构；v0.3 结构见 §19 与 system-v0.3.md）
+# 15. System Architecture（v0.1 结构；v0.2 结构见 §19 与 system-v0.2.md）
 
 ```mermaid
 flowchart TD
@@ -746,7 +746,7 @@ Living Universe 当前最重要的六个组成部分：
 
 否则不应该过早加入项目。
 
-v0.3 补充：v0.3 新增的 Claims（事实主张）、Historical Records（历史记录）、Epistemic Layer（认知层）等概念服务于同一检验标准——它们分别加强了 Living Canon（通过 Reality Canon 与 Historical Record Layer）与 Canon Compiler（通过 Canon Engine）等组件。
+v0.2 补充：v0.2 新增的 Claims（事实主张）、Historical Records（历史记录）、Epistemic Layer（认知层）等概念服务于同一检验标准——它们分别加强了 Living Canon（通过 Reality Canon 与 Historical Record Layer）与 Canon Compiler（通过 Canon Engine）等组件。
 
 ---
 
@@ -806,7 +806,7 @@ AI 负责：
 
 # 18. Current Project Scope
 
-## 当前阶段不做（v0.1 沿用，v0.3 继续遵守）
+## 当前阶段不做（v0.1 沿用，v0.2 继续遵守）
 
 - 大规模 Agent 文明
 - 自研基础模型
@@ -835,9 +835,9 @@ AI 是否能够有效帮助维护多人世界的一致性？
 
 ---
 
-# 19. v0.3 新增系统（概览）
+# 19. v0.2 新增系统（概览）
 
-v0.3 在 v0.1 基础上新增以下系统概念，详细定义见 [docs/architecture/system-v0.3.md](architecture/system-v0.3.md) 与各子系统文档：
+v0.2 在 v0.1 基础上新增以下系统概念，详细定义见 [docs/architecture/system-v0.2.md](architecture/system-v0.2.md) 与各子系统文档：
 
 | 系统 | 一句话定义 | 文档 |
 | --- | --- | --- |
@@ -860,7 +860,7 @@ v0.3 在 v0.1 基础上新增以下系统概念，详细定义见 [docs/architec
 
 ## 文档状态
 
-本文档为 v0.3 Draft（由 v0.1 增量升级），将随框架演进持续更新。
+本文档为 v0.2 Draft（由 v0.1 增量升级），将随框架演进持续更新。
 
 相关文档索引：
 
@@ -871,4 +871,4 @@ v0.3 在 v0.1 基础上新增以下系统概念，详细定义见 [docs/architec
 - `PRINCIPLES.md`
 - `ROADMAP.md`（草案）
 - `CHANGELOG.md`
-- [docs/architecture/system-v0.3.md](architecture/system-v0.3.md)（v0.3 总体架构）
+- [docs/architecture/system-v0.2.md](architecture/system-v0.2.md)（v0.2 总体架构）

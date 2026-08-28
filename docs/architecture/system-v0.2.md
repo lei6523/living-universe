@@ -1,6 +1,6 @@
-# Living Universe Architecture v0.3（活宇宙架构 v0.3）
+# Living Universe Architecture v0.2（活宇宙架构 v0.2）
 
-Status: v0.3 Draft（架构方向，不代表已实现）
+Status: v0.2 Draft（架构方向，不代表已实现）
 
 > 目前所有 AI、Knowledge Graph（知识图谱）、Canon Engine（正史引擎）、Simulation（模拟）相关内容仍属于 Architecture Direction（架构方向），不代表已经完成实现。
 
@@ -8,7 +8,7 @@ Status: v0.3 Draft（架构方向，不代表已实现）
 
 ## Definition（定义）
 
-本文档定义 Living Universe（活宇宙）的 v0.3 总体架构。
+本文档定义 Living Universe（活宇宙）的 v0.2 总体架构。
 
 它是在 v0.1 架构（见 [docs/SYSTEM_OVERVIEW.md](../SYSTEM_OVERVIEW.md) 历史版本）基础上的**增量升级**：保留 v0.1 的核心思想，同时引入新的分层与新的定义。旧架构不删除，旧定义迁移到新模型中。
 
@@ -72,7 +72,7 @@ World State
 （世界状态）
 ```
 
-v0.3（新架构）：
+v0.2（新架构）：
 
 ```text
 Story
@@ -191,13 +191,13 @@ Future Stories
 
 | 系统 | 关系 |
 | --- | --- |
-| [docs/SYSTEM_OVERVIEW.md](../SYSTEM_OVERVIEW.md) | 项目总览入口；本文档是 v0.3 架构的总体说明 |
+| [docs/SYSTEM_OVERVIEW.md](../SYSTEM_OVERVIEW.md) | 项目总览入口；本文档是 v0.2 架构的总体说明 |
 | [world-state.md](world-state.md)、[world-reality.md](world-reality.md) 等 | 本文档定义五个最高层概念，各子系统文档负责详细定义 |
 | [../governance/canon-levels.md](../governance/canon-levels.md) | 治理：Canon Authority（正史权威等级）、Scope（作用范围）、Impact Level（影响等级） |
 | [../GLOSSARY.md](../GLOSSARY.md) | 术语定义 |
 
 ## Current Status（当前状态）
 
-v0.3 Draft（架构方向）。
+v0.2 Draft（架构方向）。
 
 所有 AI、知识图谱、Canon Engine、Simulation 相关内容均为方向性描述，不代表已经完成实现。当前阶段以 Documentation Architecture（文档架构）为主。
