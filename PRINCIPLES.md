@@ -16,9 +16,9 @@ Status: v0.1
 
 ## Principle 3
 
-**AI governs consistency, not creativity.**
+**AI assists in consistency governance; final canonical authority remains human-governed.**
 
-AI 管理一致性，而不是创造力。
+AI辅助一致性治理，但最终的权威裁定权仍由人类掌控。
 
 中文解释：
 
