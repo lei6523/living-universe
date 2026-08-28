@@ -1,6 +1,6 @@
 # Living Universe Principles（原则）
 
-Status: v0.1
+Status: v0.3（由 v0.1 增量升级）
 
 ## Principle 1
 
@@ -49,6 +49,14 @@ AI 负责：
 正史必须可追溯。
 
 所有重大正史变化都必须能够追踪来源。
+
+## Principle 7
+
+**The world remembers records, not only facts.**
+
+世界不仅记住事实，也记住关于事实的记录。
+
+v0.3 新增：World Reality（世界现实）与 Historical Record Layer（历史记录层）分离，错误的历史记录本身也是历史。
 
 ---
 

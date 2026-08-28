@@ -16,6 +16,47 @@
 | `characters/` | 角色 |
 | `events/` | 事件 |
 
+## 长期迁移方向（v0.3，尚未执行）
+
+不要立刻删除旧目录。v0.3 提出未来迁移目标：
+
+```text
+universe/
+
+├── constitution/
+
+├── entities/
+│   ├── characters/
+│   ├── organizations/
+│   ├── locations/
+│   └── technologies/
+
+├── events/
+
+├── relationships/
+
+├── timeline/
+
+├── records/
+│   ├── official/
+│   ├── biographies/
+│   ├── memoirs/
+│   ├── local-history/
+│   ├── journalism/
+│   ├── scholarship/
+│   ├── propaganda/
+│   ├── rumors/
+│   └── fiction/
+
+├── claims/
+
+├── provenance/
+
+└── snapshots/
+```
+
+当前阶段先以 Documentation Architecture（文档架构）为主，不假装数据库或 AI 已经实现。
+
 ## 第一阶段目标（来自 SYSTEM_OVERVIEW v0.1）
 
 - 一个主要时间段
@@ -25,4 +66,4 @@
 - 一个核心文明矛盾
 - 第一批短篇故事
 
-框架说明见 [docs/SYSTEM_OVERVIEW.md](../docs/SYSTEM_OVERVIEW.md)。
+框架说明见 [docs/SYSTEM_OVERVIEW.md](../docs/SYSTEM_OVERVIEW.md) 与 [docs/architecture/system-v0.3.md](../docs/architecture/system-v0.3.md)。

@@ -1,10 +1,14 @@
 # What Is Living Universe
 
-Status: v0.1
+Status: v0.3 Draft（v0.1 内容保留）
 
 ## 一句话定义
 
-> Living Universe 是一种由人类与 AI 共同维护、拥有持续世界状态与共享正史的虚拟文明系统。创作者提交的故事一旦进入正史，就成为这个世界真实发生过的历史，并永久影响之后的创作。
+> Living Universe 是一种由人类与 AI 共同维护、拥有持续世界状态与共享正史的虚拟文明系统。创作者提交的故事一旦进入正史，就成为这个世界真实发生过的历史，并永久影响之后的创作。（v0.1 定义）
+
+v0.3 定义：
+
+> **Living Universe 是一种由大量人类创作者共同创造、由 AI 基础设施维护的持续叙事文明。故事可以提出事实，事实可以进入历史，历史会产生后果，而世界不仅保存真实发生过什么，也保存人们曾经如何记录、理解和误解这些历史。**
 
 ## 它不是
 
@@ -23,11 +27,13 @@ Status: v0.1
 作者 → 故事 → 读者 → 结束
 ```
 
-Living Universe：
+Living Universe（v0.3）：
 
 ```text
-创作者 → 创作故事 → Canon AI 一致性检查 → 人工 / 社区审核
-→ History Commit → 进入 Living Canon → 修改 World State
+创作者 → 选择时间 / 地点 / 范围 → Canon Snapshot（正史快照）
+→ 创作故事（Narrative Artifact + Claims）
+→ Canon Engine（正史引擎）→ 人工审核
+→ History Commit → World Reality + World State + Historical Records
 → 影响未来故事 → 新创作者继续创作 → 世界持续演化
 ```
 

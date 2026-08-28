@@ -1,8 +1,16 @@
 # Living Canon（活正史）
 
-Status: v0.1
+Status: v0.3 Draft（v0.1 内容保留为历史）
 
-## 定义
+## v0.3 更新（增量升级）
+
+> Living Canon（活正史）概念保留。v0.3 中，Living Canon 进一步具体化为 **Reality Canon（现实正史）+ Historical Record Layer（历史记录层）** 的组合：世界不仅保存「认定的事实」（Reality Canon），也保存关于事实的记录（Historical Records）。
+
+旧的五层级正史模型（Canon Constitution / Hard Canon / Local Canon / Personal Canon / Sandbox）已迁移至 [docs/governance/canon-levels.md](../governance/canon-levels.md) 的多维度模型（Canon Authority × Scope × Creator Ownership）。
+
+---
+
+## 定义（v0.1 原文，保留）
 
 > Living Canon 是一个持续增长和变化的共享正史。
 
@@ -15,7 +23,7 @@ Living Canon 与传统正史的关键区别：
 | 状态 | 不直接关联世界状态 | 每次变化都更新 World State |
 | 追溯 | 通常缺少记录 | 每次提交要求可追溯 |
 
-## 演进流程
+## 演进流程（v0.1 原文，保留）
 
 ```text
 World State v1
@@ -26,7 +34,7 @@ World State v1
 → ...
 ```
 
-## 层级
+## 层级（v0.1 原文，保留）
 
 见 [docs/governance/canon-levels.md](../governance/canon-levels.md)：
 

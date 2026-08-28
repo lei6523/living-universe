@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.3.0
+
+Architecture v0.3（架构v0.3）
+
+- Added Claim Layer（事实主张层）
+- Added Historical Record Layer（历史记录层）
+- Added Epistemic Layer（认知层）
+- Added Canon Reframing（正史重构）
+- Added Canon Snapshot（正史快照）
+- Added Merge Conflict Model（合并冲突模型）
+- Added Temporal / Causal / Provenance Graph concepts（时间 / 因果 / 溯源图谱概念）
+- Separated World Reality（世界现实） from Historical Records（历史记录）
+- Reframed Story（故事） as Narrative Artifact + Claims（叙事作品 + 事实主张）
+
 ## v0.1.0
 
 Initial public architecture of the Living Universe framework.
