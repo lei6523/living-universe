@@ -54,6 +54,13 @@ v0.1 流程（历史）：创作者 → 创作故事 → Canon AI 一致性检�
 - [路线图 ROADMAP.md](ROADMAP.md)
 - [更新日志 CHANGELOG.md](CHANGELOG.md)
 
+## Architecture Atlas（架构图谱）
+
+8 张 Mermaid 架构图，从系统全景到离线合并，30 秒看懂整个系统：
+
+- [Living Universe Architecture Atlas（活宇宙架构图谱）](docs/visuals/README.md)
+- 目录：[docs/visuals/](docs/visuals/)
+
 ## 目录结构
 
 ```text
