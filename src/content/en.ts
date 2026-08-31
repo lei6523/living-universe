@@ -202,7 +202,7 @@ export const en: Dict = {
         links: [
           {
             label: "WEBSITE REPOSITORY",
-            href: "https://github.com/lei6523/livunis-web",
+            href: "https://github.com/lei6523/LIVUNIS",
           },
           {
             label: "STATUS — DOCUMENTATION PHASE",

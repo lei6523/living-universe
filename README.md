@@ -4,9 +4,17 @@
 
 Official website of **LIVUNIS（活宇宙）** — the brand entry of the Living Universe framework: a persistent narrative civilization where fiction becomes history, and history reshapes the world.
 
-Live: **https://livunis.com** · Framework docs: **https://github.com/lei6523/LIVUNIS**
+Live: **https://livunis.com**
 
----
+## Repository Layout（仓库结构）
+
+The website lives in the **`LIVUNIS`** repository — one repo, two lanes:
+
+```
+LIVUNIS (github.com/lei6523/LIVUNIS)
+├── main           → framework documentation (README / MANIFESTO / docs / atlas)
+└── LIVUNIS-web    → this website (production branch for Cloudflare Pages)
+```
 
 ## Tech Stack（技术栈）
 
@@ -38,6 +46,8 @@ Deep-space black with civilisation-grade cold light, archive-system UI language 
 ## Run（运行）
 
 ```bash
+git clone https://github.com/lei6523/LIVUNIS.git
+git checkout LIVUNIS-web
 npm install
 npm run dev        # http://localhost:5173
 npm run build      # type-check (tsc --noEmit) + production build → dist/
@@ -49,7 +59,6 @@ Requires **Node.js ≥ 20.19** (`package.json` `engines`).
 ## Project Structure
 
 ```
-livunis-web/
 ├── index.html                 # SEO/OG meta, canonical https://livunis.com, fonts, favicon
 ├── vite.config.ts             # react + tailwind plugins
 ├── tsconfig.json
@@ -57,31 +66,30 @@ livunis-web/
 │   ├── favicon.svg
 │   ├── robots.txt
 │   └── _redirects             # SPA fallback: /* → /index.html 200 (Cloudflare Pages)
-├── src/
-│   ├── main.tsx / App.tsx     # boot state + page assembly
-│   ├── index.css              # design tokens (@theme), scanlines, keyframes
-│   ├── lib/links.ts           # canonical links to framework docs + website repo
-│   ├── content/               # i18n dictionaries: types.ts / en.ts / zh.ts / index.ts
-│   ├── context/               # LanguageContext (useLang)
-│   ├── hooks/                 # useParallax (scroll parallax for decor layers)
-│   └── components/            # AmbientBackdrop · ScrollRail · BootSequence · Hero ·
-│                              # Concept · SystemStructure · Archive · Manifesto ·
-│                              # Footer · SectionHeader · CornerFrame · Reveal · Starfield
-└── README.md
+└── src/
+    ├── main.tsx / App.tsx     # boot state + page assembly
+    ├── index.css              # design tokens (@theme), scanlines, keyframes
+    ├── lib/links.ts           # canonical links to framework docs + website repo
+    ├── content/               # i18n dictionaries: types.ts / en.ts / zh.ts / index.ts
+    ├── context/               # LanguageContext (useLang)
+    ├── hooks/                 # useParallax (scroll parallax for decor layers)
+    └── components/            # AmbientBackdrop · ScrollRail · BootSequence · Hero ·
+                               # Concept · SystemStructure · Archive · Manifesto ·
+                               # Footer · SectionHeader · CornerFrame · Reveal · Starfield
 ```
 
 ## Deployment（部署）
 
 **Architecture:** `Local/Agent → GitHub → Cloudflare Pages → livunis.com`
 
-`main` is the production branch. Every push to `main` is built and published automatically by Cloudflare Pages — no manual uploads, no tokens in this repository.
+The **`LIVUNIS-web`** branch is the production branch for the website. Every push to `LIVUNIS-web` is built and published automatically by Cloudflare Pages — no manual uploads, no tokens in the repository. Framework docs on `main` are untouched by deployments.
 
 ### Cloudflare Pages configuration（需在 Dashboard 填写）
 
 | Setting | Value |
 | --- | --- |
 | Framework preset | Vite |
-| Production branch | `main` |
+| Production branch | **`LIVUNIS-web`** |
 | Build command | `npm run build` |
 | Build output directory | `dist` |
 | Root directory | (empty — repository root) |
@@ -91,10 +99,11 @@ livunis-web/
 ### Git workflow（Git 工作流）
 
 ```
-feature/xxx  →  pull request  →  merge into main  →  automatic production deployment
+website:  feature/*  →  pull request (to LIVUNIS-web)  →  review  →  merge  →  automatic deployment
+docs:     main       →  unchanged by website deployments
 ```
 
-- `main` = production（自动部署）
+- `LIVUNIS-web` = website production（自动部署）
 - 大型更新：`feature/*` 分支 → PR → review → merge → 自动上线
 - 禁止 force push `main`
 

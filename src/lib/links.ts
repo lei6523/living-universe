@@ -1,5 +1,5 @@
 export const LINKS = {
-  site: "https://github.com/lei6523/livunis-web",
+  site: "https://github.com/lei6523/LIVUNIS",
   repo: "https://github.com/lei6523/LIVUNIS",
   manifesto: "https://github.com/lei6523/LIVUNIS/blob/main/MANIFESTO.md",
   overview:

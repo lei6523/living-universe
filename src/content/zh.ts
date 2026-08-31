@@ -201,7 +201,7 @@ export const zh: Dict = {
         links: [
           {
             label: "网站仓库",
-            href: "https://github.com/lei6523/livunis-web",
+            href: "https://github.com/lei6523/LIVUNIS",
           },
           {
             label: "状态——文档阶段",
