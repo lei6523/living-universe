@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  /* —— LIVUNIS archive palette —— */
+  --color-void: #05070d; /* deep space black */
+  --color-abyss: #080d16; /* section background */
+  --color-panel: #0b1220; /* panel / card */
+  --color-line: rgba(150, 195, 240, 0.13); /* hairline rule */
+  --color-cold: #e7eef7; /* cold white text */
+  --color-mist: #a3b6cc; /* secondary text */
+  --color-faint: #5e738f; /* tertiary / system labels */
+  --color-accent: #7cc7e8; /* civilisation light — cold cyan */
+  --color-signal: #8ce99a; /* terminal green */
+  --color-gold: #e0b06c; /* canon seal — amber */
+  --color-nebula: #8e9bf0; /* deep violet, used at 1% */
+
+  --font-display: "Space Grotesk", "Noto Sans SC", ui-sans-serif, system-ui,
+    sans-serif;
+  --font-mono: "IBM Plex Mono", "Noto Sans SC", ui-monospace, SFMono-Regular,
+    Menlo, Consolas, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-void);
+  color: var(--color-cold);
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(124, 199, 232, 0.28);
+  color: var(--color-cold);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #06090f;
+}
+::-webkit-scrollbar-thumb {
+  background: #16243a;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1e3352;
+}
+
+/* faint CRT scanlines — global, extremely subtle */
+.scanlines::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.026) 0 1px,
+    transparent 1px 3px
+  );
+}
+
+.text-glow {
+  text-shadow:
+    0 0 32px rgba(124, 199, 232, 0.3),
+    0 0 92px rgba(124, 199, 232, 0.12);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(150, 195, 240, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(150, 195, 240, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(
+    ellipse 72% 62% at 50% 44%,
+    black 26%,
+    transparent 74%
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse 72% 62% at 50% 44%,
+    black 26%,
+    transparent 74%
+  );
+}
+
+@keyframes pulseDot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.18;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: translate(-50%, -50%) scale(1.07);
+  }
+}
+
+@keyframes beamDown {
+  from {
+    top: 1%;
+  }
+  to {
+    top: 99%;
+  }
+}
+
+@keyframes scanBeam {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
